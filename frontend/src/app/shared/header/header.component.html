@@ -1,0 +1,53 @@
+<header class="topbar">
+    <nav class="navbar top-navbar navbar-expand-md navbar-light">
+        <!-- ============================================================== -->
+        <!-- Logo -->
+        <!-- ============================================================== -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+                <!-- Logo icon --><b>
+                    <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                    <!-- Dark Logo icon -->
+                    <img src="./assets/images/iconBirrete.png" alt="homepage" class="dark-logo" />
+                </b>
+                <!--End Logo icon -->
+                <!-- Logo text --><span>
+                    <!-- dark Logo text -->
+                    <img src="./assets/images/logoTextTqs.png" alt="homepage" class="dark-logo" />
+                </span>
+            </a>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Logo -->
+        <!-- ============================================================== -->
+        <div class="navbar-collapse">
+            <!-- ============================================================== -->
+            <!-- toggle and nav items -->
+            <!-- ============================================================== -->
+            <ul class="navbar-nav mr-auto">
+                <!-- This is  -->
+                <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up waves-effect waves-dark"
+                        href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                <li class="nav-item"> <a class="nav-link sidebartoggler hidden-sm-down waves-effect waves-dark"
+                        href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                <li class="nav-item hidden-sm-down"></li>
+            </ul>
+            <ul class="navbar-nav my-lg-0" id="ingreso" *ngIf="panel">                
+                <a href="/login"> IDENTIFICATE </a>
+                <p> | </p>
+                <a href="/registrar"> REGISTRATE </a>
+                
+            </ul>
+            <ul class="navbar-nav my-lg-0" id="userIcon" *ngIf="iconUser">
+                <i class="fa fa-user" title="Ingresar" (click)="mostrarPanel()" (dblclick)="quitarPanel()"></i>                
+            </ul>
+            <ul class="navbar-nav my-lg-0" id="salirIcon" *ngIf="!iconUser" >
+                <li><a (click)="logout()"><i class="fa fa-power-off"></i> Salir</a></li>             
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- ============================================================== -->
+<!-- End Topbar header -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->

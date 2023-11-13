@@ -1,0 +1,102 @@
+/*Mensajes error */
+
+.form_error {
+    padding: 3px;    
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/*Loading*/
+.loading{
+    margin: 25px;
+    padding-left: 45%;
+}
+
+#botonConsultar{
+    
+    border: none;
+    border-radius: 8px;
+    color: white;
+    width: 50%;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background: #2b7bf3;
+    
+}
+
+#ingreso a{    
+    text-decoration: none;
+    color: black;
+}
+#ingreso{
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#userIcon i{
+    color: black;
+}
+#userIcon i:hover{
+    color: rgba(0, 0, 0, 0.25);
+}
+#ingreso a:hover{    
+    color: rgba(0, 0, 0, 0.25);
+}
+#salirIcon i{
+    color: black;
+}
+#salirIcon i:hover{
+    color: rgba(0, 0, 0, 0.25);
+}
+.loading{
+    margin: 25px;
+    padding-left: 30%;
+}
+
+
+.event-schedule-area-two .tab-content .table tbody tr td .event-wrap .time span {
+    color: #252525;
+}
+.event-schedule-area-two .tab-content .table tbody tr td .event-wrap .organizers {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 10px 0;
+}
+.event-schedule-area-two .tab-content .table tbody tr td .event-wrap .organizers a {
+    color: #4125dd;
+    font-size: 16px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.event-schedule-area-two .tab-content .table tbody tr td .event-wrap .organizers a:hover {
+    color: #4125dd;
+}
+.event-schedule-area-two .tab-content .table tbody tr td .event-wrap .organizers a:before {
+    content: "\f007";
+    font-family: fontawesome;
+    padding-right: 5px;
+}
+.event-schedule-area-two .tab-content .table tbody tr td .primary-btn {
+    margin-top: 0;
+    text-align: center;
+}
+.event-schedule-area-two .tab-content .table tbody tr td .event-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+.table thead{
+    background: #745af2;
+    color: black
+}
+.imgAsesor img{
+    width: 150px;
+    height: 140px;
+    float: right;
+    padding-bottom: 10px;
+}
