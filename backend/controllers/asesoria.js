@@ -7,6 +7,7 @@ const nodemailer = require('nodemailer');
 
 var controller = {
 
+    // Controlador para consultar asesorias 
     consultar_asesorias: function (req, res) {
 
         var dbconn = new sql.ConnectionPool(dbconfig);
