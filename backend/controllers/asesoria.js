@@ -25,6 +25,7 @@ var controller = {
 
         });
     },
+    //Controlador para cerrar sesorias
     cerrar_asesoria: function (req, res) {
 
         let id_asesoria = req.params.id_asesoria
